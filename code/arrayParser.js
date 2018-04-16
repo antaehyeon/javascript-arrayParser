@@ -12,41 +12,6 @@
 
 function arrayParser(str) {
 
-    // 구현이 아닌 설계코드입니다 :)
-
-    // 0. variable
-    let resultObject = new Object();
-    resultObject.type = "array";
-    resultObject.child = new Array();
-
-    // 0-1. variable 출력 테스트
-    // 결과 : {"type":"array","child":[]}
-    console.log(JSON.stringify(resultObject));
-    
-
-    // 1. String 찢기
-    for () {
-
-        let dividedCharacterDatas = [];
-     }
-
-    // 2. 데이터 갯수만큼 반복
-    for () {
-        
-        // 3. 배열에 넣을(resultObject.child) 임시 객체 생성
-        // 저번시간에 배운 call Method 를 통한 함수재사용에 대한 내용을
-        // 적용해볼 수 있으면 적용해야겠다고 생각이 듬
-        // 데이터만 넣으면 객체가 반환되도록
-        let tempObject = new Object();
-
-        // 4. ',' 문자가 나올때 데이터를 만들면 됨
-        // 공백을 주의할 것 (공백은 그대로 넘기는 식으로)
-        if (data === ',') {
-            // resultObject.child 에 추가 (배열에 객체를 추가)
-        }
-    }
-
-    // 5. return resultObject
 
 }
 
@@ -89,4 +54,3 @@ function tempToken() {
 }
 
 tempToken();
-arrayParser("");
